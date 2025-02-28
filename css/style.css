@@ -137,3 +137,29 @@ img {
 /* Tablet Screen */
 
 /* Smarthphone Screen */
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right{
+        width: 100%;
+    }
+
+    .steps{
+        margin: 3rem 0 0 0;
+    }
+
+    .why-us{
+        padding: 2rem 0;
+        margin: 0;
+        background-color: black;
+    }
+}
+
+/* Smarthphone Screen */
